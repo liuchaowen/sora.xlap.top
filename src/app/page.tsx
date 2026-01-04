@@ -124,7 +124,6 @@ export default function Home() {
       startPolling(savedTaskId);
     }
 
-    // 恢复X Key
     const savedXKey = localStorage.getItem('x_api_key');
     if (savedXKey) {
       setXKey(savedXKey);
